@@ -1,0 +1,27 @@
+{
+  "name": "simple-react-component-package",
+  "version": "1.0.0",
+  "description": "Simple npm package with a react component, for testing",
+  "main": "index.bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild index.js --bundle --minify --outfile=index.bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noahsark769/simple-react-component-package.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noahsark769/simple-react-component-package/issues"
+  },
+  "homepage": "https://github.com/noahsark769/simple-react-component-package#readme",
+  "devDependencies": {
+    "esbuild": "^0.13.12",
+    "react": "^17.0.2"
+  },
+  "dependencies": {
+    "react-dom": "^17.0.2"
+  }
+}

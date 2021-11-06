@@ -1,0 +1,1 @@
+import SimpleComponent from "./SimpleComponent";
